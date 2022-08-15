@@ -1,0 +1,21 @@
+D:\Project Panda Development\Panda Theme JSON Format\bin\Debug\Panda Theme JSON Format.exe.config
+D:\Project Panda Development\Panda Theme JSON Format\bin\Debug\Panda Theme JSON Format.exe
+D:\Project Panda Development\Panda Theme JSON Format\bin\Debug\Panda Theme JSON Format.pdb
+D:\Project Panda Development\Panda Theme JSON Format\bin\Debug\Newtonsoft.Json.dll
+D:\Project Panda Development\Panda Theme JSON Format\bin\Debug\WpfAnimatedGif.dll
+D:\Project Panda Development\Panda Theme JSON Format\bin\Debug\Newtonsoft.Json.xml
+D:\Project Panda Development\Panda Theme JSON Format\bin\Debug\WpfAnimatedGif.pdb
+D:\Project Panda Development\Panda Theme JSON Format\bin\Debug\WpfAnimatedGif.xml
+D:\Project Panda Development\Panda Theme JSON Format\obj\Debug\Panda Theme JSON Format.csproj.SuggestedBindingRedirects.cache
+D:\Project Panda Development\Panda Theme JSON Format\obj\Debug\MainWindow.g.cs
+D:\Project Panda Development\Panda Theme JSON Format\obj\Debug\App.g.cs
+D:\Project Panda Development\Panda Theme JSON Format\obj\Debug\Panda Theme JSON Format_MarkupCompile.cache
+D:\Project Panda Development\Panda Theme JSON Format\obj\Debug\Panda Theme JSON Format_MarkupCompile.lref
+D:\Project Panda Development\Panda Theme JSON Format\obj\Debug\MainWindow.baml
+D:\Project Panda Development\Panda Theme JSON Format\obj\Debug\Panda Theme JSON Format.g.resources
+D:\Project Panda Development\Panda Theme JSON Format\obj\Debug\Panda_Theme_JSON_Format.Properties.Resources.resources
+D:\Project Panda Development\Panda Theme JSON Format\obj\Debug\Panda Theme JSON Format.csproj.GenerateResource.cache
+D:\Project Panda Development\Panda Theme JSON Format\obj\Debug\Panda Theme JSON Format.csproj.CoreCompileInputs.cache
+D:\Project Panda Development\Panda Theme JSON Format\obj\Debug\Panda Theme JSON Format.csproj.CopyComplete
+D:\Project Panda Development\Panda Theme JSON Format\obj\Debug\Panda Theme JSON Format.exe
+D:\Project Panda Development\Panda Theme JSON Format\obj\Debug\Panda Theme JSON Format.pdb
