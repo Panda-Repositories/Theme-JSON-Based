@@ -1,0 +1,24 @@
+﻿<Window x:Class="Panda_Theme_JSON_Format.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Panda_Theme_JSON_Format"
+        mc:Ignorable="d"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"  
+        Title="Hello World" Height="450" Width="800" WindowStyle="None" AllowsTransparency="True" Background="{x:Null}" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid Background="{x:Null}">
+            <!-- Image / Theme ( Start )-->
+            <Border CornerRadius="11">
+                <Border.Background>
+                    <ImageBrush x:Name="ThemeBorder"/>
+                </Border.Background>
+            </Border>
+            <Image x:Name="gifborder" gif:ImageBehavior.AnimatedSource="/zero-two-gif-13.gif" Margin="-1,-1,0,0" Stretch="Fill" Visibility="Hidden"/>
+            <Border x:Name="DarkBorder" CornerRadius="10" BorderBrush="#FD232323" BorderThickness="1" Background="#FF0F0F0F" Opacity="0.4"/>
+            <!-- Image / Theme ( End )-->
+            <Button Content="Load JSON Theme" Click="Button_Click" Margin="18,10,655,404"></Button>
+        </Grid>
+    </Grid>
+</Window>
