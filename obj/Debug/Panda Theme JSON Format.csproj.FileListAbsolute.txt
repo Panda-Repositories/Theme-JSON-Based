@@ -19,3 +19,26 @@ D:\Project Panda Development\Panda Theme JSON Format\obj\Debug\Panda Theme JSON 
 D:\Project Panda Development\Panda Theme JSON Format\obj\Debug\Panda Theme JSON Format.csproj.CopyComplete
 D:\Project Panda Development\Panda Theme JSON Format\obj\Debug\Panda Theme JSON Format.exe
 D:\Project Panda Development\Panda Theme JSON Format\obj\Debug\Panda Theme JSON Format.pdb
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\obj\Debug\Panda Theme JSON Format.csproj.SuggestedBindingRedirects.cache
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\obj\Debug\MainWindow.g.cs
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\obj\Debug\App.g.cs
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\obj\Debug\Panda Theme JSON Format_MarkupCompile.cache
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\obj\Debug\Panda Theme JSON Format_MarkupCompile.lref
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\obj\Debug\Panda Theme JSON Format.exe
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\obj\Debug\Panda Theme JSON Format.pdb
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\bin\Debug\Panda Theme JSON Format.exe.config
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\bin\Debug\Panda Theme JSON Format.exe
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\bin\Debug\Panda Theme JSON Format.pdb
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\bin\Debug\WpfAnimatedGif.dll
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\bin\Debug\WpfAnimatedGif.pdb
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\bin\Debug\WpfAnimatedGif.xml
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\obj\Debug\MainWindow.baml
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\obj\Debug\Panda Theme JSON Format.g.resources
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\obj\Debug\Panda_Theme_JSON_Format.Properties.Resources.resources
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\obj\Debug\Panda Theme JSON Format.csproj.GenerateResource.cache
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\obj\Debug\Panda Theme JSON Format.csproj.CoreCompileInputs.cache
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\obj\Debug\Panda Theme JSON Format.csproj.CopyComplete
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\obj\Debug\LoaderWindow.g.cs
+C:\Users\kerle\Downloads\Compressed\Theme-JSON-Based-main\obj\Debug\LoaderWindow.baml
