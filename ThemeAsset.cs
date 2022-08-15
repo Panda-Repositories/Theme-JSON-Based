@@ -15,23 +15,22 @@ namespace Panda_Theme_JSON_Format
             get { return path; }
         }
 
-        public class Theme_Configuration
+        public class MainConfiguration
         {
-            /*
-             * These URL must require ending with extension such as .jpeg or .gif
-             * -----------------------------------------------------------------------------
-             * 
-             */
-            public string Theme_URL { get; set; } //URL Them
-            public string MainUI_Name { get; set; } //Name of UI
-            public string Loader_Name { get; set; } //Loader Name UI ( if you have Loader )
-            public string IconURL { get; set; } //Icon / Logo URL
+            public string BackgroundImageUri { get; set; }
+            public string BackgroundName { get; set; }
+        }
 
+        public class LoaderConfiguration
+        {
+            public string BackgroundImageUri { get; set; }
+            public string BackgroundName { get; set; }
         }
 
         public class User
         {
-            public Theme_Configuration Themes;
+            public MainConfiguration Main;
+            public LoaderConfiguration Loader;
         }
     }
 }
