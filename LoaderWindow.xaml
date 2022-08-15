@@ -1,4 +1,4 @@
-﻿<Window x:Class="Panda_Theme_JSON_Format.MainWindow"
+﻿<Window x:Class="Panda_Theme_JSON_Format.LoaderWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Panda_Theme_JSON_Format"
         mc:Ignorable="d"
         xmlns:gif="http://wpfanimatedgif.codeplex.com"  
-        Title="Hello World" Height="450" Width="800" WindowStyle="None" AllowsTransparency="True" Background="{x:Null}" WindowStartupLocation="CenterScreen" MouseDown="Window_MouseDown">
+        Title="Hello World" Height="181" Width="608" WindowStyle="None" AllowsTransparency="True" MouseDown="Window_MouseDown" Background="{x:Null}" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid Background="{x:Null}">
             <!-- Image / Theme ( Start )-->
@@ -18,8 +18,8 @@
             <Image x:Name="gifborder" gif:ImageBehavior.AnimatedSource="/zero-two-gif-13.gif" Margin="-1,-1,0,0" Stretch="Fill" Visibility="Hidden"/>
             <Border x:Name="DarkBorder" CornerRadius="10" BorderBrush="#FD232323" BorderThickness="1" Background="#FF0F0F0F" Opacity="0.4"/>
             <!-- Image / Theme ( End )-->
-            <Button Content="Load JSON Theme" Click="Button_Click" Margin="18,10,655,404"></Button>
-            <Button x:Name="Loader" Content="Open Loader" Click="Loader_Click" Margin="18,54,655,360"></Button>
+            <Button x:Name="Loader" Content="X" Click="Loader_Click" Margin="566,9,11,142"></Button>
+            <Label Content="THIS IS THE LOADER" Foreground="White" FontSize="20"></Label>
         </Grid>
     </Grid>
 </Window>

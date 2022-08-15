@@ -18,13 +18,13 @@ namespace Panda_Theme_JSON_Format
         public class MainConfiguration
         {
             public string BackgroundImageUri { get; set; }
-            public string BackgroundName { get; set; }
+            public string Name { get; set; }
         }
 
         public class LoaderConfiguration
         {
             public string BackgroundImageUri { get; set; }
-            public string BackgroundName { get; set; }
+            public string Name { get; set; }
         }
 
         public class User

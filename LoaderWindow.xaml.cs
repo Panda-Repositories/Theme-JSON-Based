@@ -1,29 +1,41 @@
-﻿using Microsoft.Win32;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net;
+using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
 using System.Windows.Input;
+using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
 using WpfAnimatedGif;
 
 namespace Panda_Theme_JSON_Format
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for LoaderWindow.xaml
     /// </summary>
-    /// 
-    
-    public partial class MainWindow : Window
+    public partial class LoaderWindow : Window
     {
-        public MainWindow()
+        public LoaderWindow()
         {
             InitializeComponent();
             LoadJSON();
         }
+
+        private void Loader_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+
+        }
+
+        #region JSON Theme
         private async void LoadJSON(string path = "path")
         {
             ThemeBorder.ImageSource = null;
@@ -41,68 +53,45 @@ namespace Panda_Theme_JSON_Format
             await Task.Delay(100);
 
             string jsonString = AppDomain.CurrentDomain.BaseDirectory + @"\Theme.json";
-            var JsonData = JsonConvert.DeserializeObject<ThemeAsset.User>(File.ReadAllText(jsonString)); 
+            var JsonData = JsonConvert.DeserializeObject<ThemeAsset.User>(File.ReadAllText(jsonString));
 
             BitmapImage bitmap = new BitmapImage();
             bitmap.BeginInit();
-            bitmap.UriSource = new Uri(JsonData.Main.BackgroundImageUri, UriKind.Absolute);
+            bitmap.UriSource = new Uri(JsonData.Loader.BackgroundImageUri, UriKind.Absolute);
             bitmap.EndInit();
             ThemeBorder.ImageSource = bitmap;
 
-            string extn = JsonData.Main.BackgroundImageUri;
+            string extn = JsonData.Loader.BackgroundImageUri;
             switch (extn)
             {
                 case "gif":
-                    GifMode(JsonData.Main.BackgroundImageUri);
+                    GifMode(JsonData.Loader.BackgroundImageUri);
                     gifborder.Visibility = Visibility.Visible;
                     break;
                 default:
-                    GifMode(JsonData.Main.BackgroundImageUri);
+                    GifMode(JsonData.Loader.BackgroundImageUri);
                     gifborder.Visibility = Visibility.Hidden;
                     break;
             }
-            this.Title = JsonData.Main.Name;
+            this.Title = JsonData.Loader.Name;
         }
 
         private void GifMode(string _fs_name)
         {
-            var image = new BitmapImage(); 
+            var image = new BitmapImage();
             image.BeginInit();
             image.UriSource = new Uri(_fs_name);
             image.EndInit();
             ImageBehavior.SetAnimatedSource(gifborder, image);
         }
+        #endregion
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            var OpenFile = new OpenFileDialog
-            {
-                Title = "Import Configurations File",
-                Filter = "Theme / Setting Files (*.json)|*.json",
-            };
-            using (var stream = OpenFile.OpenFile())
-            {
-                if (stream != null)
-                {
-                    using (var reader = new StreamReader(stream))
-                    {
-                        LoadJSON(reader.ReadToEnd());
-                    }
-                }
-            }
-        }
-
-        private void Window_MouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if (e.ChangedButton == MouseButton.Left && e.ButtonState == MouseButtonState.Pressed)
             {
                 DragMove();
             }
-        }
-
-        private void Loader_Click(object sender, RoutedEventArgs e)
-        {
-            new LoaderWindow().Show();
         }
     }
 }
