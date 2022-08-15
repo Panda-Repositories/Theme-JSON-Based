@@ -21,3 +21,5 @@ NuGet Requirements
 * WpfAnimatedGif
 * Newtonsoft.Json
 
+It's really appriciate if you credit me ( SkieHacker ) for this sort of contribution to the community, 
+hopefully you can do better than this.
