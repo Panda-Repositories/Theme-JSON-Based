@@ -1,6 +1,8 @@
 # Theme-JSON-Based
 JSON based Theme for your fancy WPF Applications, Allows Users to customized your Application with GIF Capabilities.
 
+
+
 Discord Server: https://pandatechnology.xyz/Discord/
 
 Theme JSON Format 
@@ -21,5 +23,5 @@ NuGet Requirements
 * WpfAnimatedGif
 * Newtonsoft.Json
 
-It's really appriciate if you credit me ( SkieHacker ) for this sort of contribution to the community, 
+It's really appriciate if you credit me ( SkieHackerYT#2013 ) for this sort of contribution to the community, 
 hopefully you can do better than this.
