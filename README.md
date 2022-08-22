@@ -18,4 +18,4 @@ NuGet Requirements
 It's really appriciate if you credit me ( SkieHackerYT#2013 ) for this sort of contribution to the community, 
 hopefully you can do better than this.
 
-- Developed by SkieHacker ( C# ) and pepsi#0948 ( JSON Format )
+- Developed by SkieHacker ( C# ) and pepsi#0948 ( JSON Format, Code Cleaning :) )
